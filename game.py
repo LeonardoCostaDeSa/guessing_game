@@ -26,6 +26,5 @@ while True:
     if direction == 'greater':
         number_min = number_tried + 1
     elif direction == 'lower':
-        number_max = number_tried - 1
-    print(f"Updated range: {number_min} to {number_max}")    
+        number_max = number_tried - 1    
 print(f"It took {len(list_numbers_tried) + 1} guesses.")
